@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <title>Google Books Search Engine</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fetch polyfill if your browser doesn't support fetch -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"   ></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+
+      
+<div id="container-background">
+
+  <h1 id="page-title"> Google Books Search</h1>
+
+      <div class = "container">
+          <div id="search-area">
+            <div class = "upper">
+            <!-- <h3 id = "zipcode_text"> Enter the Book Name:</h3>  -->
+            <input id="search-bar" type="text" placeholder="Input book name here">
+            <button id="search-btn"><i class="fa fa-search" ></i></button>
+          </div>
+         </div>
+          <div class = "middle">
+            <div id="results-area">
+              <ul id="results"></ul>
+              </div>
+
+            </div>
+         </div>
+        </div>
+      </div>
+    
+    <script src="main.js"></script>
+    <!-- for babel transpilation -->
+    <!-- <script src="main.min.js"></script> -->
+  </body>
+</html>
